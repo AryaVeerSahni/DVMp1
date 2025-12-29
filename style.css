@@ -1,0 +1,63 @@
+/* XS-300-575 S-576-767 M-768-991 L-992-1319 XL-1320 onwards*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    border: solid 1px #000;
+    z-index: 1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    border: solid 1px #000;
+}
+
+.navBar {
+    border: solid 1px #000;
+    width: 93.53px;
+    height: 62px;
+}
+
+.hamburger{
+    border: solid 1px #000;
+    height: 56px;
+    width: 56px;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.menuButton {
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 1pc;
+    margin-left: 1pc;
+}
+
+.menuIcon,
+.menuIcon::before,
+.menuIcon::after {
+    background-color: #172b4d;
+    width: 24px;
+    height: 5px;
+}
+
+p {
+    font-size: 50px;
+}
