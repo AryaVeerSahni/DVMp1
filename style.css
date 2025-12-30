@@ -13,23 +13,23 @@
     display: flex;
     height: 70px;
     width: 100%;
-    border: solid 1px #000;
+    /* border: solid 1px #000; */
     z-index: 1;
     box-shadow: 0 4px 12px #172b4d50;
 }
 
-.logo {
-    border: solid 1px #000;
-}
+/* .logo {
+     border: solid 1px #000;
+}*/
 
 .navBar {
-    border: solid 1px #000;
+    /* border: solid 1px #000; */
     width: 93.53px;
     height: 62px;
 }
 
 .hamburger{
-    border: solid 1px #000;
+    /* border: solid 1px #000; */
     height: 56px;
     width: 56px;
     margin-left: auto;
@@ -77,19 +77,19 @@
     top: 8px;
 }
 
-.hamburger:hover .menuIcon::before {
+.menuButton:hover .menuIcon::before {
     transform: translateY(8px) rotate(45deg);
-    transition-duration: 0.75s;
+    transition-duration: 350ms;
 }
 
-.hamburger:hover .menuIcon::after {
+.menuButton:hover .menuIcon::after {
     transform: translateY(-8px) rotate(-45deg);
-    transition-duration: 0.75s;
+    transition-duration: 350ms;
 }
 
-.hamburger:hover .menuIcon {
+.menuButton:hover .menuIcon {
     background-color: transparent;
-    transition-duration: 0.75s;
+    transition-duration: 350ms;
 }
 
 .header2 {
@@ -107,6 +107,128 @@
     column-width: 100%;
 }
 
+.sec1 {
+    background-color: #f4f5f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.div1 {
+    max-width: 540px;
+    padding-top: 128px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    /* border: #000 solid 1px; */
+    text-align: center;
+}
+
+.div2 {
+    max-width: 540px;
+    width: 100%;
+    padding: 16px;
+    /* border: #000 solid 1px; */
+}
+
+.signUpButton {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    background-color: #0065ff;
+    width: 100%;
+    height: 49.6px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signUpLink {
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 17.2px;
+    padding-top: 17.2px;
+}
+
+.signUpButton:hover {
+    background-color: #003481cd;
+    transition-duration: 400ms;
+}
+
+.normalLink {
+    color: #0052cc;
+}
+
+.normalLink:visited{
+    color: #0052cc;
+}
+
+.normalLink:hover {
+    color: #551a8b;
+    transition-duration: 0.5s;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.div3 {
+    max-width: 540px;
+    padding: 16px;
+    /* border: solid 1px #000; */
+    text-wrap: wrap;
+}
+
+.sec3 {
+    background-color: #0065ff;
+}
+
+.sec3Padding {
+    padding: 48px 16px 16px 16px;
+}
+
+.textWhiteCenter {
+    color: #ffffff;
+    text-align: center;
+}
+
+.imgSizeDown {
+    max-width: 100%;
+    height: auto;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.size24 {
+    font-size: 24px;
+}
+
+.topMargin40 {
+    margin-top: 40px;
+}
+
+.bottomMargin8 {
+    margin-bottom: 8px;;
+}
+
+.bottomMargin10 {
+    margin-bottom: 10px;;
+}
+
+.bottomMargin16 {
+    margin-bottom: 16px;
+}
+
+h1, h2 {
+    color: #091e42;
+    margin-bottom: 8px;
+}
+
 p {
     font-size: 1rem;
+    color: #091e42;
 }
