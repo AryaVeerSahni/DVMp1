@@ -1,5 +1,3 @@
-/* XS-300-575 S-576-767 M-768-991 L-992-1319 XL-1320 onwards*/
-
 * {
     margin: 0;
     padding: 0;
@@ -13,17 +11,17 @@
     display: flex;
     height: 70px;
     width: 100%;
-    /* border: solid 1px #000; */
     z-index: 1;
     box-shadow: 0 4px 12px #172b4d50;
 }
 
-/* .logo {
-     border: solid 1px #000;
-}*/
+.logo {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
 
 .navBar {
-    /* border: solid 1px #000; */
     width: 93.53px;
     height: 62px;
 }
@@ -33,7 +31,6 @@
 }
 
 .hamburger{
-    /* border: solid 1px #000; */
     height: 56px;
     width: 56px;
     margin: 7px 0 7px auto;
@@ -124,7 +121,6 @@
 .div1 {
     max-width: 540px;
     padding: 128px 16px 16px 16px;
-    /* border: #000 solid 1px; */
     text-align: center;
 }
 
@@ -132,7 +128,6 @@
     max-width: 540px;
     width: 100%;
     padding: 16px;
-    /* border: #000 solid 1px; */
 }
 
 .signUpButton {
@@ -164,7 +159,7 @@
 
 .normalLink:hover {
     color: #551a8b;
-    transition-duration: 0.5s;
+    transition-duration: 200ms;
 }
 
 .sec2 {
@@ -175,7 +170,6 @@
 .div3 {
     max-width: 540px;
     padding: 16px;
-    /* border: solid 1px #000; */
     text-wrap: wrap;
 }
 
@@ -229,7 +223,6 @@
     margin-top: 150px;
     max-width: 540px;
     padding: 16px;
-    /* border: solid 1px #000; */
     text-wrap: wrap;
 }
 
@@ -238,14 +231,129 @@
     display: none;
 }
 
+.sec6 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.div6 {
+    display: flex;
+    flex-flow: column;
+    background-color: #fafbfc;
+    padding: 24px;
+    margin: 16px;
+    max-width: 508px;
+    height: auto;
+    border-radius: 10px;
+    row-gap: 16px;
+}
+
+.div6 h3{
+    font-size: 20px;
+    color: #091e42;
+}
+
+.div6Img {
+    width: 96px;
+    height: 97px;
+}
+.div6 a {
+    color: #172b4d;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 11.2px 16px 12.8px 16px;
+    margin-right: auto;
+    border: solid 0.5px #0669ff;
+    border-radius: 5px;
+}
+
+.div6 a:hover {
+    background-color: #0669ff20;
+    transition-duration: 400ms;
+}
+
+.div7 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: center;
+    margin: 16px 16px 48px 16px;
+}
+
+.div7 p {
+    max-width: 508px;
+    text-align: center;
+}
+
+.div71 {
+    max-width: 288px;
+    height: auto;
+}
+
+.div72 {
+    display: none;
+}
+
+.sec7 {
+    background-image: linear-gradient(to right, #5c44aa,#e04fb3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec7 h2 {
+    margin: 48px 0 24px;
+}
+
+.sec7 div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    width: min(508px, calc(100vw - 32px));
+    justify-content: center;
+}
+
+.signupLink {
+    background-color: #0065ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 16.2px;
+    width: 100%;
+    text-align: center;
+}
+
+.signupLink:hover {
+    background-color: #003481cd;
+    transition-duration: 400ms;
+}
+
+.sec7 p {
+    margin: 16px 16px 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sec7 p a {
+    color: #ffffff;
+}
+
+.sec7 input {
+    display: none;
+}
+
 .textWhite {
     color: #ffffff;
-    /*text-align: center;*/
 }
 
 .imgSizeDown {
     max-width: 100%;
     height: auto;
+}
+
+.size12 {
+    font-size: 12px;
 }
 
 .size20 {
@@ -286,7 +394,7 @@ p {
     color: #091e42;
 }
 
-main input {
+.div1 input {
     width: 300px;
     height: 49.6px;
     display: none;
@@ -295,11 +403,97 @@ main input {
     font-size: 16px;
 }
 
+footer {
+    background-color: #172b4d;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.divf1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 32px;
+    width: min(476px, calc(100vw - 64px));
+    height: auto;
+}
+
+.divf1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.divf1 a:hover {
+    text-decoration: underline;
+}
+
+.divf2 {
+    display: flex;
+    flex-flow: column nowrap;
+    width: min(476px, calc(100vw - 64px));
+    height: auto;
+}
+
+.footerul {
+    list-style: none;
+}
+
+.footerli {
+    padding: 16px 0;
+    border-top: solid 1px #505f79;
+}
+
+.footerli a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
+}
+
+.divf3 {
+    display: flex;
+    flex-flow: column nowrap;
+    width: min(476px, calc(100vw - 64px));
+    height: auto;
+    padding-top: 16px;
+    border-top: solid 1px #505f79;
+}
+
+.divf3 ul {
+    list-style: none;
+}
+
+.divf3 li {
+    margin-bottom: 16px;
+}
+
+.divf3 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.divf3 a:hover {
+    text-decoration: underline;
+}
+
+.divf3 section {
+    padding: 64px 64px 64px 0;
+}
+
+.divf3 section a{
+    margin-right: 28px;
+}
+
 @media screen and (min-width: 769px){
     .div1 {
         max-width: 720px;
         padding: 128px 16px 16px 16px;
-        /* border: #000 solid 1px; */
         text-align: center;
     }
 
@@ -307,7 +501,6 @@ main input {
         max-width: 720px;
         width: 100%;
         padding: 16px;
-        /* border: #000 solid 1px; */
     }
 
     .signUpButton {
@@ -339,8 +532,58 @@ main input {
         width: calc(50vw - 360px);
     }
 
-    main input {
+    .sec6 {
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .div6 {
+        width: 328px;
+        height: auto;
+    }
+
+    .div6 h3{
+        font-size: 24px;
+    }
+
+    .div7 p {
+        max-width: 688px;
+    }
+
+    .div71 {
+        display: none;
+    }
+
+    .div72 {
+        display: block;
+        max-width: 688px;
+        height: auto;
+    }
+
+    .div1 input {
         display: inline;
+    }
+
+    .signupLink {
+        padding: 16.2px 16px;
+    }
+
+    .sec7 div {
+        width: 568px;
+    }
+
+    .sec7 input {
+        display: inline;
+        border: none;
+        border-radius: 5px;
+        padding: 16.2px 213px 16.2px 0;
+    }
+
+    .divf1,
+    .divf2,
+    .divf3 {
+        width: min(656px, calc(100vw - 64px));
     }
 
     h2 {
@@ -361,7 +604,6 @@ main input {
     }
 
     .navBar {
-        /* border: solid 1px #000; */
         width: 515.31px;
         height: 60px;
         display: grid;
@@ -372,8 +614,13 @@ main input {
         height: 60px;
     }
 
+    .logo {
+        margin: 7.5px 10px 7.5px 10px;
+        height: 45px;
+        width: auto;
+    }
+
     .hamburger{
-        /* border: solid 1px #000; */
         height: 60px;
         width: 306.65px;
         margin: 0 0 0 auto;
@@ -426,7 +673,6 @@ main input {
     .div1 {
         max-width: 455px;
         padding: 128px 16px;
-        /* border: #000 solid 1px; */
         text-align: left;
     }
 
@@ -434,7 +680,6 @@ main input {
         max-width: 535px;
         width: 100%;
         padding: 128px 16px;
-        /* border: #000 solid 1px; */
     }
 
     .sec2 {
@@ -473,12 +718,108 @@ main input {
         width: calc(50vw - 480px);
     }
 
-    main input {
+    .div6 {
+        width: 288px;
+        height: auto;
+    }
+
+    .div6 h3{
+        font-size: 24px;
+    }
+
+    .div7 p {
+        max-width: 768px;
+    }
+
+    .div72 {
+        max-width: 768px;
+        height: auto;
+    }
+
+    .div1 input {
         margin-top: 24px;
+    }
+
+    .sec7 {
+        background-image: none;
+        background-color: #f4f5f7;
+    }
+
+    .sec7 h2,
+    .sec7 p {
+        color: #091e42;
+    }
+
+    .sec7 p a:any-link {
+        color: #0052cc;
+    }
+
+    .sec7 p a:hover {
+        color: #551a8b;
+        transition-duration: 200ms;
+    }
+
+    footer {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .divf1 {
+        align-self: start;
+        flex-flow: column nowrap;
+        align-items: start;
+        margin: 32px 32px 0 16px;
+        width:auto;
+        row-gap: 16px;
+    }
+
+    .divf2 {
+        flex-flow: row nowrap;
+        padding: 16px;
+        width: 800px;
+    }
+
+    .footerul {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .footerli {
+        padding: 16px;
+        border: none;
+    }
+
+    .footerli:hover {
+        background-color: #344563;
+    }
+
+    .footerli a:hover {
+        text-decoration: none;
+    }
+
+    .divf3 {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 989px;
+    }
+
+    .divf3 ul {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 528px;
+        column-gap: 16px;
+    }
+
+    .divf3 section {
+        padding: 0 16px 16px;
     }
 
     h1 {
         font-size: 48px;
+    }
+
+    .copyrightTop {
+        padding-top: 4px;
     }
 }
 
@@ -486,7 +827,6 @@ main input {
     .div1 {
         max-width: 550px;
         padding: 128px 16px 16px 16px;
-        /* border: #000 solid 1px; */
         text-align: left;
     }
 
@@ -494,7 +834,6 @@ main input {
         max-width: 645px;
         width: 100%;
         padding: 128px 16px 0px 16px;
-        /* border: #000 solid 1px; */
     }
 
     .signUpButton {
@@ -516,5 +855,35 @@ main input {
 
     .div51 {
         width: calc(50vw - 570px);
+    }
+
+    .div6 {
+        width: 348px;
+        height: auto;
+    }
+
+    .div6 h3 {
+        font-size: 24px;
+    }
+
+    .div7 p {
+        max-width: 918px;
+    }
+
+    .div72 {
+        max-width: 918px;
+        height: auto;
+    }
+
+    .divf2 {
+        width: 950px;
+    }
+
+    .divf3 {
+        width: 1139px;
+    }
+
+    .copyrightTop {
+        padding-top: 3.5px;
     }
 }
